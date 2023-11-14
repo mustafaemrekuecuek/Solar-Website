@@ -1,0 +1,233 @@
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-container{
+    margin: 0;
+    padding: 0;
+
+}
+
+b {
+    font-weight: 700;
+}
+
+#background-video {
+    position: absolute;
+    width: 100%;
+    z-index: -10;
+}
+
+.top-container-inhalt {
+    padding: 4% 12%;
+}
+
+#contactButton {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+#contactButton2 {
+}
+
+.navbar-brand {
+    font-size: 3rem;
+}
+
+.nav-link:hover {
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.big-Header {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 6rem;
+}
+
+.header-color {
+    background-image: linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(9,47,121,0.3169642857142857) 7%, rgba(0,121,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#discoverBtn {
+    margin-top: 6%;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+
+/* Carousel Review */
+
+.portrait {
+    width: 10%;
+    height: 10%;
+
+    border-radius: 50%;
+
+    margin-right: 2%;
+}
+
+.colored-section {
+    background-color: #1092CF;
+    color:white;
+}
+
+.container-fluid:not(#zeile):not(#zeile2) {
+    padding: 3% 10% 3%;
+}
+
+.reviewHeader {
+    margin-bottom: 3%;
+}
+
+.carousel-item em {
+    font-size: 1.25rem;
+}
+
+/* Features-Section */
+
+.features-section {
+    margin-top: 12%;
+
+    background-color: white;
+}
+
+.card {
+    height: 100%;
+  }
+  
+.card-img-top {
+    height: 300px;
+    object-fit: cover;
+}
+
+
+.contactBtn {
+    position: fixed;
+
+    top: 10%;
+    right: 0.75rem;
+
+    z-index: 1;
+
+    display: none;
+}
+
+/*Featurettes-Section*/
+
+
+
+
+
+/*Newsletter*/
+
+.mail {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+/*Projects Seite*/
+
+.carousel-container {
+    z-index: -10;
+}
+
+#carousel2 .carousel-item {
+    width: 100%; /* Breite des Containers auf 100% setzen */
+    height: 32rem; /* Höhe des Containers festlegen */
+    
+}
+
+#carousel2 img {
+    width: 100%; /* Maximale Breite des Bildes auf 100% des Containers setzen */
+    height: 100%; /* Maximale Höhe des Bildes auf 100% des Containers setzen */
+    display: block; /* Das Bild als Blockelement anzeigen */
+    margin: auto; /* Das Bild horizontal zentrieren */
+}
+
+.feature-text {
+    font-size: 1.25rem;
+}
+
+
+/* Service */
+
+.middle-container {
+    margin-bottom: 5%;
+}
+
+
+
+/*Responsivness*/
+
+/*Extra Small*/
+@media screen and (max-width: 575px) {
+    .reviewHeader {
+        font-size: 1rem;
+    }
+    .big-Header {
+        font-size: 3rem;
+    }
+    .small-Header {
+        text-align: center;
+        font-size: 1rem;
+    }
+
+    .video-container {
+        position: absolute;
+        height: 500px;
+        width: auto;
+        z-index: -1;
+
+        overflow: hidden;
+    }
+    #background-video {
+        position: relative;
+        height: 100%;
+        width: fit-content;
+
+        right: 25%;
+    }
+
+    .nav-item {
+        margin: 0;
+    }
+}
+/*Small*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+    .big-Header {
+        font-size: 4rem;
+    }
+    .small-Header {
+        font-size: 1rem;
+    }
+}
+/*Medium*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .big-Header {
+        font-size: 5rem;
+    }
+    .small-Header {
+        font-size: 1.5rem;
+    }
+}
+/*Large*/
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+    
+}
+/*XL*/
+@media screen and (min-width: 1200px) and (max-width: 1399px) {
+    
+}
+/*XXL*/
+@media screen and (min-width: 1400px){
+    
+}
