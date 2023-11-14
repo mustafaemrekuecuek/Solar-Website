@@ -1,9 +1,6 @@
 # SolarWebsite
 
-## Preview
-[Live Vorschau](http://mustafaemrekuecuek.github.io/Code-Player/)
-
-Willkommen auf der SolarWebsite, einem Projekt, das sich der Präsentation und dem Verständnis von Solarenergie und ihren Anwendungen widmet. Diese Website wurde erstellt, um meine Skills in HTML, CSS (Bootstrap) und Javascript anzuwenden.
+Willkommen auf der [SolarWebsite](http://mustafaemrekuecuek.github.io/SolarWebsite/), einem Projekt, das sich der Präsentation und dem Verständnis von Solarenergie und ihren Anwendungen widmet. Diese Website wurde erstellt, um meine Skills in HTML, CSS (Bootstrap) und Javascript anzuwenden.
 ## Über das Projekt
 
 SolarWebsite ist eine statische Webseite, gehostet über GitHub Pages, die grundlegende Informationen über Solarenergie und ihre Anwendungen bietet. Es dient als Bildungsressource für alle, die sich für erneuerbare Energien interessieren.
