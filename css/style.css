@@ -3,9 +3,11 @@ html{
 }
 
 .top-container{
+    background-image: url(../images/Header.png);
+    background-size: 100%;
     margin: 0;
     padding: 0;
-
+    margin-bottom: -10%;
 }
 
 b {
@@ -13,6 +15,7 @@ b {
 }
 
 #background-video {
+    background-image: url(../images/Header.png);
     position: absolute;
     width: 100%;
     z-index: -10;
