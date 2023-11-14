@@ -16,7 +16,7 @@ b {
     background-image: url(../images/Header.png);
     position: absolute;
     width: 100%;
-    z-index: -10;
+    z-index: -100;
 }
 
 .top-container-inhalt {
@@ -26,8 +26,7 @@ b {
 #contactButton {
     background-color: rgba(255, 255, 255, 0.2);
 }
-#contactButton2 {
-}
+
 
 .navbar-brand {
     font-size: 3rem;
